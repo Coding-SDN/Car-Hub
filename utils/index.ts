@@ -28,7 +28,7 @@ export const calculateCarRent = (city_mpg: number, year: number) => {
     const rentalRatePerDay = basePricePerDay + mileageRate + ageRate;
   
     return rentalRatePerDay.toFixed(0);
-  };
+};
 
 
 export const generateCarImageUrl = (car: CarProps, angle?: string) => {
