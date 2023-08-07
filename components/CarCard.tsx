@@ -62,7 +62,7 @@ const CarCard = ({ car }: CarCardProps) => {
                     </div>
                 </div>
                 <div className='car-card__btn-container'>
-                    <CustomButton title='View More' containerStyles='w-[280px] py-[16px] rounded-full bg-primary-blue' textStyles='text-white text-[14px] leading-[17px] font-bold' rightIcon='/right-arrow.svg' handleClick={() => setIsOpen(true)} />
+                    <CustomButton title='View More' containerStyles='w-[315px] py-[16px] rounded-full bg-primary-blue' textStyles='text-white text-[14px] leading-[17px] font-bold' rightIcon='/right-arrow.svg' handleClick={() => setIsOpen(true)} />
                 </div>
             </div>
             
