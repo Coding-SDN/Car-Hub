@@ -32,7 +32,7 @@ const CarCard = ({ car }: CarCardProps) => {
             </span>
             {carRent}
             <span className='self-end text-[14px] font-medium'>
-                /day
+                /mth
             </span>
         </p>
 
