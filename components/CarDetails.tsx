@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Image from "next/image";
 
-import { Dialog, Transition } from "@headlessui/react";
+import { Dialog, Transition } from "@headlessui/react/dist/headlessui.esm.js";
 import { CarProps } from "@types";
 import { generateCarImageUrl } from "@utils";
 
